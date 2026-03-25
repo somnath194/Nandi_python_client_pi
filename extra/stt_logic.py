@@ -46,7 +46,7 @@ from openai import OpenAI
 #  CONFIGURATION  â€” tune these to match your environment
 # =============================================================================
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 # -- Audio --------------------------------------------------------------------
 SAMPLE_RATE       : int   = 16_000   # Hz  (Whisper & WebRTC VAD both want 16 k)
